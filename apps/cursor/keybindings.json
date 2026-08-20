@@ -1,0 +1,34 @@
+// [
+//     // Other keybindings
+//     {
+//         "key": "shift+j",
+//         "command": "selectNextSuggestion",
+//     },
+//     {
+//         "key": "shift+k",
+//         "command": "selectPrevSuggestion",
+//     },
+//     {
+//         "key": "shift+j",
+//         "command": "workbench.action.quickOpenSelectNext"
+//     },
+//     {
+//         "key": "shift+k",
+//         "command": "workbench.action.quickOpenSelectPrevious"
+//     }
+    
+//     // Other keybindings
+// ]
+
+
+
+[
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "shift+k",
+        "command": "claude-vscode.editor.openLast"
+    }
+]

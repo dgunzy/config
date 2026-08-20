@@ -1,0 +1,8 @@
+cargo-audit
+cargo-binstall
+cargo-deny
+cargo-insta
+fd-find
+kopium
+mdbook
+rustlings

@@ -1,0 +1,27 @@
+# Never commit secrets. If one of these ever shows up, something copied the wrong file.
+*.key
+*.pem
+*.agekey
+*.asc
+*.gpg
+id_*
+!id_*.pub.example
+.credentials.json
+auth.json
+credentials
+hosts.yml
+.netrc
+.env
+.env.*
+
+# macOS noise
+.DS_Store
+
+# Editor state that isn't config
+apps/*/globalStorage/
+apps/*/workspaceStorage/
+apps/*/History/
+
+# nvim runtime state
+xdg/nvim/.git/
+xdg/nvim/plugin/

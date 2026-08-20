@@ -1,0 +1,123 @@
+{
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
+  "go.toolsManagement.autoUpdate": true,
+  "files.associations": {
+    "*.gohtml": "html",
+  },
+  "cSpell.userWords": [
+    "Bannable",
+    "DBAUTH",
+    "DBURI",
+    "Domainname",
+    "godotenv",
+    "gohtml",
+    "goroutines",
+    "Infof",
+    "libsql",
+    "Mossenson",
+    "Portfinder",
+    "strslice",
+    "tmpl",
+  ],
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[gohtml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+  },
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "workbench.statusBar.visible": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "explorer.compactFolders": false,
+  "editor.showFoldingControls": "never",
+  "editor.glyphMargin": false,
+  "window.title": " ",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "window.commandCenter": false,
+  "python.defaultInterpreterPath": "/Users/danguns/PersonalProjects/AlgoPratice/python/fastapi/.venv",
+  "docker.extension.enableComposeLanguageServer": false,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true,
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"],
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"],
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-d>", "z", "z"],
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-u>", "z", "z"],
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"],
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"],
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-d>", "z", "z"],
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-u>", "z", "z"],
+    },
+  ],
+  "vim.handleKeys": {
+    "<C-j>": true,
+    "<C-k>": true,
+  },
+  "vim.easymotion": true,
+  "catppuccin.workbenchMode": "minimal",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path-mac": "/Users/danguns/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vs-kubernetes.crd-code-completion": "disabled"
+  },
+  "chat.disableAIFeatures": true,
+  "yaml.disableSchemaDetection": [],
+}

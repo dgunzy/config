@@ -1,0 +1,50 @@
+Alfred
+Android Studio
+AppCleaner
+Bitwarden
+Bluesnooze
+Cursor
+Discord
+Docker
+draw.io
+Firefox
+flameshot
+Ghostty
+Google Chrome
+iMovie
+iTerm
+Jagex Launcher
+kdenlive
+Keynote
+LM Studio
+logioptionsplus
+Microsoft Defender Shim
+Microsoft Excel
+Microsoft OneNote
+Microsoft Outlook
+Microsoft PowerPoint
+Microsoft Teams
+Microsoft Word
+Numbers
+OBS
+Obsidian
+OneDrive
+Pages
+Palworld
+PDFgear
+PingPlotter
+Pixelmator Pro
+Pixelmator Pro Creator Studio
+Poker Simulator
+Postman
+Rectangle
+Safari
+Signal
+Slack
+Spotify
+Telegram
+TunnelBear
+Visual Studio Code
+Webex
+WhatsApp
+zoom.us

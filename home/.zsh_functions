@@ -1,0 +1,29 @@
+amend() {
+    if git commit -s -S --amend --no-edit
+    then
+        # Get the current branch name
+        current_branch=$(git branch --show-current)
+        
+        # Try to push with force, setting upstream if needed
+        if ! git push --force 2>/dev/null; then
+            echo "No upstream set, setting upstream to origin/$current_branch"
+            git push --force --set-upstream origin "$current_branch"
+        fi
+    else
+        echo "git commit failed"
+        return 1
+    fi
+}
+merge() {
+    # Get the current branch name
+    current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+    if [ "$current_branch" = "main" ]; then
+        echo "Error: Already on main branch, nothing to merge"
+        return 1
+    fi
+
+    echo "Merging branch $current_branch with squash..."
+    gh pr merge "$current_branch" --squash --delete-branch --admin
+}
+

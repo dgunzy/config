@@ -1,0 +1,173 @@
+tap "anomalyco/tap"
+tap "controlplaneio-fluxcd/tap"
+tap "ddev/ddev"
+tap "dgunzy/tap", trusted: true
+tap "fluxcd/tap"
+tap "heroku/brew"
+tap "jesseduffield/lazygit", trusted: { formulae: ["lazygit"] }
+tap "libsql/sqld", trusted: { formulae: ["libsql-server", "sqld"] }
+tap "tursodatabase/tap"
+# Run your GitHub Actions locally
+brew "act"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
+# Simple, modern, secure file encryption
+brew "age"
+# TIFF library and utilities
+brew "libtiff"
+# GitOps Continuous Delivery for Kubernetes
+brew "argocd"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Kubernetes package manager
+brew "helm"
+# Configurable static site generator
+brew "hugo"
+# Handy way to save and run project-specific commands
+brew "just"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
+# Run local Kubernetes cluster in Docker
+brew "kind"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Find what models run on your hardware
+brew "llmfit"
+# Utility for directing compilation
+brew "make"
+# Java-based project management
+brew "maven"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+# 'traceroute' and 'ping' in a single tool
+brew "mtr"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Generate clients, server & docs from an OpenAPI spec (v2, v3)
+brew "openapi-generator"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Safe, concurrent, practical language
+brew "rust"
+# Rust toolchain installer
+brew "rustup"
+# Editor of encrypted files
+brew "sops"
+# User interface to the TELNET protocol
+brew "telnet"
+# Tool to build, change, and version infrastructure
+brew "terraform"
+# Terminal multiplexer
+brew "tmux"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
+# Flux Operator CLI
+brew "controlplaneio-fluxcd/tap/flux-operator", trusted: true
+# Flux MCP Server
+brew "controlplaneio-fluxcd/tap/flux-operator-mcp", trusted: true
+# DDEV
+brew "ddev/ddev/ddev", trusted: true
+# K9s-inspired terminal UI for monitoring Flux GitOps resources
+brew "dgunzy/tap/flux9s", trusted: true
+# Flux CLI
+brew "fluxcd/tap/flux", trusted: true
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku", trusted: true
+brew "tursodatabase/tap/turso", trusted: true
+# Prevents your sleeping computer from connecting to Bluetooth accessories
+cask "bluesnooze"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# Online diagram software
+cask "drawio"
+# Screenshot software with built-in annotation tools
+cask "flameshot"
+# Free and open-source image editor
+cask "gimp"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Open-source software for live streaming and screen recording
+cask "obs"
+# Terminal emulator, SSH and serial client
+cask "tabby"
+vscode "4ops.terraform"
+vscode "austenc.tailwind-docs"
+vscode "bourhaouta.tailwindshades"
+vscode "bradlc.vscode-tailwindcss"
+vscode "catppuccin.catppuccin-vsc"
+vscode "docker.docker"
+vscode "github.vscode-github-actions"
+vscode "golang.go"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.makefile-tools"
+vscode "redhat.vscode-yaml"
+vscode "rust-lang.rust-analyzer"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "svelte.svelte-vscode"
+vscode "tamasfe.even-better-toml"
+vscode "tomoki1207.pdf"
+vscode "vmware.vscode-manifest-yaml"
+vscode "vscodevim.vim"
+vscode "zarifprogrammer.tailwind-snippets"
+go "github.com/cosmtrek/air"
+go "sigs.k8s.io/controller-tools/cmd/controller-gen"
+go "github.com/ahmetb/gen-crd-api-reference-docs"
+go "github.com/melkeydev/go-blueprint"
+go "github.com/dgunzy/go-book"
+go "github.com/golangci/golangci-lint/cmd/golangci-lint"
+go "golang.org/x/tools/gopls"
+go "sigs.k8s.io/kustomize/kustomize/v5"
+go "google.golang.org/protobuf/cmd/protoc-gen-go"
+go "google.golang.org/grpc/cmd/protoc-gen-go-grpc"
+go "sigs.k8s.io/controller-runtime/tools/setup-envtest"
+go "honnef.co/go/tools/cmd/staticcheck"
+go "github.com/a-h/templ/cmd/templ"
+cargo "cargo-audit"
+cargo "cargo-binstall"
+cargo "cargo-deny"
+cargo "cargo-insta"
+cargo "fd-find"
+cargo "kopium"
+cargo "mdbook"
+cargo "rustlings"
+npm "@openapitools/openapi-generator-cli"
+npm "corepack"
+npm "omniroute"
+npm "openwolf"
+npm "wrangler"

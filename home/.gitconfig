@@ -1,0 +1,16 @@
+[pager]
+	branch = false
+  log = nvim -R
+[user]
+	name = Daniel Guns
+	email = danbguns@gmail.com
+	signingkey = A4A63406F0E8A225
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+	gpgsign = true

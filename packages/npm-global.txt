@@ -1,0 +1,5 @@
+@openapitools/openapi-generator-cli
+corepack
+omniroute
+openwolf
+wrangler
